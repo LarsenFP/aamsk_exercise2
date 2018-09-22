@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+        <item
+            android:id="@+id/action_send_email"
+            android:orderInCategory="100"
+            android:title="@string/send_email"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/action_open_insta"
+            android:orderInCategory="100"
+            android:title="@string/instagram"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/action_calling"
+            android:orderInCategory="100"
+            android:title="@string/make_a_call"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/action_twitter"
+            android:orderInCategory="100"
+            android:title="@string/twitter"
+            app:showAsAction="never" />
+</menu>
